@@ -4,4 +4,6 @@ from django.http import HttpResponse
 
 def hello(request):
     # return HttpResponse("Hello My Boys!!!!!!!!!!")
+    x = 1
+    b = 2
     return render(request,"index.html",{"name":"Radha"})
