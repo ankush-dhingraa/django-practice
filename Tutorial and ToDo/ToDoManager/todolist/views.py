@@ -13,7 +13,7 @@ def home(request):
     # }
     # return  HttpResponse("<h1>This is a ToDo Task<h2>")
     # return JsonResponse(data=data)
-    return render(request, "index.html")
+    return render(request, "index.html", {"page":"Home Page"})
 
 #Contact us page
 def contact(request):
